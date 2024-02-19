@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: center;
+    min-height: var(--header-size);
+    align-items: center;
+}
+
+.header_holder {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+}
+
+.logo_holder {
+    display: flex;
+    align-items: center;
+}
+
+.header_right {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+.site_name {
+    width: 280px;
+    text-decoration: none;
+}
+
+.site_address {
+    width: 216px;
+}
