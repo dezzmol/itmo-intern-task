@@ -1,4 +1,10 @@
 .page_content {
     padding: 20px;
-    width: 1400px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: var(--page-max-width);
+
 }

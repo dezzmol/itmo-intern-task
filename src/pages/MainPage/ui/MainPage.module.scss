@@ -1,9 +1,16 @@
 .page_content {
     padding: 20px;
-    width: 1400px;
 }
 
 .title_wrapper {
+    width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.title_and_button_wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
 }

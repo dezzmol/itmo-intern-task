@@ -1,0 +1,33 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000099;
+    display: none;
+}
+
+.modalHead {
+    margin-bottom: 10px;
+}
+
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 25px;
+    background: white;
+    border-radius: 16px;
+    min-width: 350px;
+}
+
+.modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    margin-top: 10px;
+}

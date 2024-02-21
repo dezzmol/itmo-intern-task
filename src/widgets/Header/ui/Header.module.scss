@@ -1,32 +1,41 @@
-.header {
-    display: flex;
-    justify-content: center;
-    min-height: var(--header-size);
-    align-items: center;
-}
-
 .header_holder {
     display: flex;
     justify-content: space-between;
-    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--page-max-width);
+    flex-wrap: wrap; /* Добавляем wrap для переноса элементов на маленьких экранах */
 }
 
 .logo_holder {
     display: flex;
     align-items: center;
+    margin-right: 20px; /* Добавляем расстояние между картинкой и кнопками */
 }
 
 .header_right {
     display: flex;
     justify-content: center;
-    gap: 20px
+    gap: 20px;
+    align-items: center;
 }
 
-.site_name {
-    width: 280px;
-    text-decoration: none;
+.logo_holder {
+    display: flex;
+    align-items: center;
+
 }
 
-.site_address {
-    width: 216px;
+
+
+@media screen and (max-width: 600px) {
+    .header_holder {
+        flex-direction: column; /* Переключаемся на столбцы на маленьких экранах */
+        align-items: center; /* Выравниваем элементы по центру */
+    }
+
+    .logo_holder {
+        margin-right: 0; /* Убираем правый отступ для картинки на маленьких экранах */
+        margin-bottom: 20px; /* Добавляем отступ снизу для картинки на маленьких экранах */
+    }
 }

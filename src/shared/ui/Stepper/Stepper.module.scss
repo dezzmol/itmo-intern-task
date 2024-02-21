@@ -1,0 +1,54 @@
+$circle-size: 50px;
+$circle-color: #000; // Чёрный цвет круга
+$image-size: 30px; // Размер изображения должен быть меньше круга
+$line-color: #000; // Чёрный цвет линии
+$line-width: 2px; // Толщина линии
+
+.step {
+    display: flex;
+    align-items: center;
+
+    &__circle {
+        width: $circle-size;
+        height: $circle-size;
+        border-radius: 50%;
+        background-color: $circle-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    &__image {
+        width: $image-size;
+        height: $image-size;
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    &__line {
+        height: $line-width;
+        background-color: $line-color;
+        flex-grow: 1;
+        margin: 0 20px;
+    }
+}
+
+
+
+.step__content {
+    text-align: center; // Выравнивание текста по центру
+
+
+}
+
+.step__circle {
+    z-index: 1; // Убедитесь, что круг виден
+    // Остальные стили
+}
+
+.step__image {
+    z-index: 2; // Убедитесь, что изображение видно поверх круга
+    // Остальные стили
+}

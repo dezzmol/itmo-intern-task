@@ -6,5 +6,6 @@ export interface Links {
 export interface CourseCardAttributes {
     imgSrc: string;
     title: string;
+    course_link: string;
     links: Links[]
 }

@@ -4,6 +4,7 @@ import classes from "./Header.module.scss"
 import Button, {ButtonSize, ButtonTheme} from "@/shared/ui/Button/Button.tsx";
 
 const Header = () => {
+
     return (
         <header className={classes.header}>
             <div className={classes.header_holder}>
@@ -16,25 +17,23 @@ const Header = () => {
                 <div className={classes.header_right}>
                     <Link to={"/about"}>
                         <Button
-                            theme={ButtonTheme.PRIMARY}
+                            theme={ButtonTheme.SECONDARY}
                             size={ButtonSize.MEDIUM}
                             onClick={(e) => e.stopPropagation()}
                         >
                             О нас
                         </Button>
                     </Link>
-                    <Link to={"/about"}>
+                    <Link to={"/contacts"}>
                         <Button
                             theme={ButtonTheme.SECONDARY}
                             size={ButtonSize.MEDIUM}
                             onClick={(e) => e.stopPropagation()}
                         >
-                            Отзывы
+                            Контакты
                         </Button>
                     </Link>
-
                 </div>
-
             </div>
         </header>
     );

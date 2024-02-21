@@ -1,0 +1,21 @@
+.crumbs {
+
+}
+
+.breadcrumbs {
+    margin: 20px auto;
+}
+
+.breadcrumbs > *{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.breadcrumbs .crumbs:not(:last-child):after {
+    content: ">";
+    margin-left: 10px;
+}
+
+.breadcrumbs .crumbs .a {
+    color: var(--primary-color);
+}

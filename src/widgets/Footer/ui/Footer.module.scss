@@ -1,4 +1,17 @@
 .footer {
     height: var(--footer-size);
     padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px var(--border-color) solid;
+    flex-wrap: wrap;
 }
+
+.holder {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: var(--page-max-width);
+}
+

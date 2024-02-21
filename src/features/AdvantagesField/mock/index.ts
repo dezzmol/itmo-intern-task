@@ -1,0 +1,8 @@
+import {AdvantageCardAttributes} from "@/shared/types/advantageCardAttributes/advantageCardAttributes.ts";
+
+export const advantagesMock: AdvantageCardAttributes[] = [
+    {imgSrc: "https://itcenter.itmo.ru/thumb/2/HK6LPJfHFb5WbjvrERAiAA/76c76/d/icon1.png", title: "ПРЕПОДАВАТЕЛИ-ПРОФЕССИОНАЛЫ", desc: "Сертифицированные тренеры и специалисты, имеющие опыт практической работы в IT и международные Сертификаты фирм: Microsoft, Oracle, Cisco, Red Hat, PMI и др., мотивируют слушателей к освоению новейших технологий"},
+    {imgSrc: "https://itcenter.itmo.ru/thumb/2/U6fuhMClCaxG5-_AHIwhAw/76c76/d/icon2.png", title: "АККРЕДИТАЦИЯ И ЛИЦЕНЗИЯ", desc: "Лицензия на осуществление образовательной деятельности и Свидетельство о государственной аккредитации Университета ИТМО гарантируют качество образовательной среды"},
+    {imgSrc: "https://itcenter.itmo.ru/thumb/2/mpUk7e2sX6e3H9Hd5ZKCHA/76c76/d/icon3.png", title: "УНИКАЛЬНЫЕ МЕТОДИКИ", desc: "Методики преподавания IT курсов, которые сочетают уникальность Авторизованных курсов ведущих фирм и практический опыт тренеров специалистов ведущих компаний, позволяют выпускать востребованных на рынке труда специалистов"},
+    {imgSrc: "https://itcenter.itmo.ru/thumb/2/H3U2FTRNCAhghUAFaw_EWQ/76c76/d/icon4.png", title: "ПАРТНЕРЫ ЦЕНТРА", desc: "Партнерство Центра с ведущими российскими и международными IT - компаниями: Microsoft, Cisco, Oracle, IBM, EMC, HP, Person VUE и др. позволяет использовать в обучении технологии и методы лучших мировых практик"},
+]

@@ -13,7 +13,10 @@ const CourseCard: FC<Props> = (props) => {
 
     return (
         <article className={classes.card}>
-            <img src={course.imgSrc} alt={course.title}/>
+            <div className={classes.img_holder}>
+                <img  src={course.imgSrc} alt={course.title}/>
+            </div>
+
             <h3>{course.title}</h3>
             {course.links.map(link =>
                 <div>{link.title}</div>

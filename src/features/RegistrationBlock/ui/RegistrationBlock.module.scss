@@ -1,0 +1,19 @@
+.block {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: var(--page-max-width);
+}
+
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.holder p {
+    max-width: 1120px;
+}

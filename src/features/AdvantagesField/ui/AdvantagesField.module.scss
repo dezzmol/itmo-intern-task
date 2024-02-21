@@ -1,0 +1,14 @@
+.advantages_field {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.advantages_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: var(--page-max-width);
+}
