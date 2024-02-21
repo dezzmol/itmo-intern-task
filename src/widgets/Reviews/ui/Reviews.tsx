@@ -1,5 +1,5 @@
 import {mockReviews} from "../mock/mockReviews.ts";
-import ReviewCard from "@/shared/ui/ReviewCard/ReviewCard.tsx";
+import ReviewCard from "@/entities/ReviewCard/ReviewCard.tsx";
 import classes from "./Reviews.module.scss"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Carousel} from "react-responsive-carousel";

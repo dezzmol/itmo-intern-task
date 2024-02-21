@@ -1,6 +1,6 @@
 import classes from "./CoursesField.module.scss"
-import {courses as coursesMock} from "@/features/CoursesList/mock/courses.ts";
-import CourseCard from "@/shared/ui/CourseCard/CourseCard.tsx";
+import {courses as coursesMock} from "../mock/courses.ts";
+import CourseCard from "@/entities/CourseCard/ui/CourseCard.tsx";
 
 const CoursesField = () => {
     return (
@@ -15,7 +15,7 @@ const CoursesField = () => {
                         <CourseCard course={course}/>
                     )}
                 </div>
-                {/*<CoursesList/>*/}
+
             </div>
         </section>
     );

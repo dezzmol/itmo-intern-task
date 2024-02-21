@@ -4,7 +4,6 @@ import classes from "./Header.module.scss"
 import Button, {ButtonSize, ButtonTheme} from "@/shared/ui/Button/Button.tsx";
 
 const Header = () => {
-
     return (
         <header className={classes.header}>
             <div className={classes.header_holder}>

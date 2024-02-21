@@ -1,5 +1,5 @@
 import {advantagesMock} from "@/features/AdvantagesField/mock";
-import AdvantageCard from "@/shared/ui/AdvantageCard/AdvantageCard.tsx";
+import AdvantageCard from "@/entities/AdvantageCard/AdvantageCard.tsx";
 import classes from "./AdvantagesField.module.scss"
 
 const AdvantagesField = () => {

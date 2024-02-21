@@ -1,6 +1,6 @@
 import classes from "./IssuedDocumentsList.module.scss"
 import {docs} from "@/features/IssuedDocumentsList/mock/docs.ts";
-import IssuedDocumentCard from "@/shared/ui/IssuedDocumentCard/IssuedDocumentCard.tsx";
+import IssuedDocumentCard from "@/entities/IssuedDocumentCard/IssuedDocumentCard.tsx";
 
 const IssuedDocumentsList = () => {
     return (
