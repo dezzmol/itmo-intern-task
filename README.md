@@ -6,4 +6,4 @@
 
 Для запуска:
 
-### `npm start`
+### `npm run dev`
